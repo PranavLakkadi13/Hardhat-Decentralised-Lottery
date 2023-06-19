@@ -1,0 +1,6 @@
+.env
+coverage
+deployments 
+node_modules
+cache
+artifacts
