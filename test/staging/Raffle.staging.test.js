@@ -38,7 +38,7 @@ developmentChains.includes(network.name)
                 assert.equal(raffleState, 0);
                 assert.equal(
                   winnerEndingBalance.toString(),
-                  winnerStartingBalance.add(entranceFee.add(entranceFee)).toString()
+                  winnerStartingBalance.add(entranceFee).toString()
                 );
                 assert(endingTimeStamp > startingTimeStamp);
                 resolve();
