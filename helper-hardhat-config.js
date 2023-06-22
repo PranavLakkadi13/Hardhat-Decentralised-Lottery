@@ -7,7 +7,7 @@ const networkConfig = {
     entranceFee: ethers.utils.parseEther("0.01"),
     gasLane:
       "0x474e34a077df58807dbe9c96d3c009b23b3c6d0cce433e59bbf5b34f823bc56c",
-    subId: "2958",
+    subId: "/*Enter the sub id */",
     callbackGasLimit: "500000",
     interval: "30",
   },
@@ -17,7 +17,7 @@ const networkConfig = {
     entranceFee: ethers.utils.parseEther("0.1"),
     gasLane:
       "0x4b09e658ed251bcafeebbc69400383d49f344ace09b9576fe248bb02c003fe9f",
-    subId: "5284",
+    subId: "/*Enter the sub id */",
     callbackGasLimit: "500000",
     interval: "30",
   },
