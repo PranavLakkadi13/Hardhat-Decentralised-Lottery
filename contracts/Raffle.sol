@@ -21,7 +21,7 @@ error Raffle__UpKeepNotNeeded(uint currentBalance, uint numPlayers, uint raffleS
 /// @author Pranav Reddy 
 /// @notice To create an untamparable truly decentralised random lottery
 /// @dev This uses chianlink VRFv2 and Chainlink Keepers 
-contract Raffle is VRFConsumerBaseV2, /* AutomationCompatibleInterface */ KeeperCompatibleInterface{
+contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface{
     // Type declaration
     enum RaffleState {
         OPEN,
