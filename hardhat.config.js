@@ -13,7 +13,6 @@ const PolygonScan_API_KEY = process.env.PolygonScan_API_KEY;
 const Etherscan_API_KEY = process.env.Etherscan_API_KEY;
 const Coinmarketcap_API_KEY = process.env.Coinmarketcap_API_KEY;
 
-/** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   defaultNetwork: "hardhat",
   networks: {
