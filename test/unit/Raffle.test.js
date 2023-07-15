@@ -21,6 +21,7 @@ const { developmentChains, networkConfig } = require("../../helper-hardhat-confi
           entranceFee = await raffle.getEntranceFee();  
           interval = await raffle.getInterval();
         });
+    
     describe("constructor", () => {
       it("Initializes the raffle contract", async () => {
         const rafflestate = await raffle.getRaffleState();
@@ -33,8 +34,7 @@ const { developmentChains, networkConfig } = require("../../helper-hardhat-confi
         assert.equal(requests.toString(), "3");
       });
     });
-      
-
+    
     describe("Enter Raffle lottery", () => {
           it("reverts when u dont pay enough", async () => {
             await expect(raffle.enterRaffle()).to.be.revertedWith(
